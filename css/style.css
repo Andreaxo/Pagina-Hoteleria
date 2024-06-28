@@ -1,0 +1,635 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+  
+header{
+    background: rgb(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+
+}
+
+#imagen1-index2{
+    width: 50px;
+     position: absolute;
+     top: 40px;
+     padding: auto;
+     right: 100px;
+ }
+ 
+ #imagen2-index2{
+     width: 35px;
+     position: absolute;
+     top: 47px;
+     padding: auto;
+     right: 60px;
+ }
+ 
+ #imagen3-index2{
+     width: 60px;
+     position: absolute;
+     top: 34px;
+     padding: auto;
+     right: 5px;
+ }
+ 
+ #imagen2-1-index2{
+    width: 50px;
+    position: absolute;
+    top: 38px;
+    padding: auto;
+    right: 55px;
+ }
+
+ #imagen3-1-index2{
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    padding: auto;
+    right: 10px;
+ }
+
+
+
+ #encabezado-index2 a{
+     margin-right: 10px;
+ }
+ 
+ #encabezado-index2 h1{
+     margin: 0;
+ }
+
+h1{
+    padding: 20px;
+}
+
+#pagina{
+    padding: 12px;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+
+}
+
+.contenido{
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+
+.paginas{
+    list-style-type: none;  /* Quitarle los estilos a las listas*/
+    float: left;  /* Para ubicar elementos flotantes */
+    display: flex;  /* Bloquea y organiza en las mismas lineas dependiendo que tipo de display*/
+    width: 20%;
+    line-height: 30px;  /* La altura de la linea*/
+    
+    
+}
+
+li a{
+    text-decoration: none;  /* Este sirve para quitarle el underline a los hipervinculos*/
+    color: yellow; /* Para agregar colores */
+
+}
+
+li a:hover{ /*Efecto sobre el cursor*/
+    background: yellow;
+    color: red;
+
+}
+
+li a:active{ /* Efecto cuando se presiona en esa opción*/
+    background: red;
+
+}
+
+#imagen{
+    width: 40px;
+    margin-top: -6px;
+    margin-left: 30px;
+}
+
+
+/* Estilo del INDEX 2 */
+.container{
+    text-align: justify;
+    background-image: url(https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tituloINDEX2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container-texto{
+    background-image: url(https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+
+#parrafo-index2{
+    text-align: center;
+    overflow-wrap: break-word;
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#titulos-index2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px 40px;
+    color: aliceblue;
+}
+
+#foto2{
+    width: 500px;
+    border-radius: 20px;
+    border: 5px rgb(86, 29, 219) solid;
+    margin: auto;
+}
+#foto1{
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px rgb(86, 29, 219) solid;
+
+}
+
+.fotoshoteles{
+    margin-bottom: 25px;
+
+}
+
+
+#footer-index4{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#footer-index5{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+.fotoshoteles{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+}
+
+/* ESTILO INDEX 3 */
+.contenedor-index3{
+    background-image: url(https://images.pexels.com/photos/104826/aircraft-holiday-sun-tourism-104826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment:scroll ;
+}
+
+#titulovuelos{
+    text-align: center;
+    background-color: rgb(233, 194, 121);
+    margin: 0
+}
+.container-index3{
+    display: flex;
+    overflow-wrap: break-word;
+    justify-content: center;
+}
+.vuelo1,.vuelo2{
+    background-color: rgb(240, 222, 165);
+    width: 400px;
+    border-radius: 100px;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50%
+}
+
+#avion{
+    width: 100px;
+    border-radius: 100px;
+}
+
+/* ESTILO INDEX 4 */
+.contenedor-index4{
+    background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat:round;
+    background-size: 100%; 
+}
+
+#foto1, #foto2, #foto3, #foto4, #foto5{
+    width: 500px;
+    border-radius: 10px;
+    background:#000;
+
+}
+
+.contenido-i4{
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color:rgb(51, 51, 51,0.5);
+    width: 1200px;
+    border-radius: 100px;
+}
+
+
+#p1{
+    background-color:rgb(250, 250, 250, 1);
+    overflow-wrap: break-word;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    height: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulos-index4{
+    background-color:rgb(250, 250, 250, 0.6);
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-top: 5px;
+    border-radius: 10px;
+    width: 50%;
+    height: 25px;
+}
+.titulo-i4{
+    background-color:rgb(0, 0, 0);
+    margin-left: 30px ;
+    margin-right: 30px;
+    border-radius: 10px;
+    color: rgb(247, 217, 217);
+    margin: auto;
+    border: 10px rgb(126, 119, 103) outset;
+}
+
+.footer-index3 .text-footer3{
+    margin: auto;
+}
+
+/* ESTILO DEL INDEX 5*/
+.container-i5{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.reseña1{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    background: rgb(214, 206, 206);
+    width: 400px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left:40px;
+}
+
+#star{
+    width: 200px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+#reseña-1{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botones{
+    width: 30%;
+    height: 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#parrafo{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    background-color: gray ;
+    width: 800px;
+    line-height: 100px;
+    height: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    border-radius: 30px;
+    color:white;
+
+}
+
+
+#nombre-r{
+    padding-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+
+/* ESTILO DEL INDEX 6*/
+
+#reserva-2{
+    padding: auto;
+}
+
+#fotoreserva{
+    width: 250px;
+    padding-bottom: auto   ;
+    
+}
+
+.reservas, #lista{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    text-decoration:underline;
+    border: 3px black solid;
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(239, 237, 233);
+}
+
+#tituloreserva{
+    text-align: center;
+}
+
+#reservacion{
+    margin-top: 10px;
+    padding-bottom: auto;
+    padding-top:auto;
+    border: 3px black solid; 
+    border-radius: 70px;
+    background-color: rgb(214, 206, 206);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+}
+
+.reserva, #reseña1, .listas-index6{
+    display: flex;
+    justify-content: space-around;
+}
+
+#fotoreserva1{
+    width: 290px;
+}
+
+#fotoreserva2{
+    width: 310px;
+
+}
+
+#reservacion1{
+    margin-top: 35px;
+    padding-bottom: auto;
+    padding-top:auto;
+    border: 3px black solid; 
+    border-radius: 70px;
+    background-color: rgb(214, 206, 206);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+/* ESTILO INDEX 7 */
+
+.tendvideo{
+    display: block;
+    text-align: center; 
+}
+#videotend{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+
+.tendencias{
+    margin: auto;
+    background-image: url("https://images.pexels.com/photos/21858742/pexels-photo-21858742/free-photo-of-carretera-paisaje-viaje-viajar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.footersito{
+    display: block;
+    position:relative;
+}
+
+.tendvideo1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#videos1{
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    padding-bottom: 20px;
+}
+
+.tend1, .tend2, .tend3, .tend4, .tend5{
+    background-color: rgb(250, 235, 215, 0.4);
+    border-radius: 10px;
+    margin: 35px;
+}
+
+#titulostendencias{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#textotendencias{
+    justify-content: justify;
+    padding-left: 20px;
+
+}
+
+/*slider */
+
+h4, #textoInicio{
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+   
+}
+
+.index-main{
+    background-image: url("/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -10px;
+    margin-top: 0;
+}
+
+.encabezado-index1{
+    background-color: rgb(250, 235, 215, 0.5) ;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+#tituloslider{
+    padding-top: 10px
+}
+
+#wishlist{
+    width: 100px;
+}
+
+/* Boton de wp */
+.boton{
+    padding:0;
+    cursor: pointer; 
+    background: none;
+    border: none;
+    position:fixed;
+    bottom: 100px;
+    left:50px;
+
+}
+
+
+.links a{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    width: min-content;
+}
+
+.links{
+    display: none;
+}
+
+
+
+.wp:hover .links{
+    display: block;
+
+}
+
+.wp {
+position: absolute;
+
+}
+
+#wp-img1{
+    width: 100px;
+}
+
+#wp-img2{
+    width: 200px;
+    position: fixed;
+    left:10px;
+    bottom: 20px;
+    
+}
+
+/*FOOTER*/
+.img-footer{
+    text-align: center;
+    width: 20px;
+    margin-left: 20px;
+
+}
+
+.img-footer1{
+    width: 20px;
+    margin: 5px;
+}
+
+.fb{
+    display: flex;
+}
+
+.ig{
+    display: flex;
+}
+
+.img-footer2{
+    margin: auto;
+}
+
+#img-footer2{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.text-footer{
+    justify-content: center;
+    margin-top: -27px;
+}
+
+footer{
+    position:static;
+    bottom: 0;
+    width: 100%;
+    background-color: #050505;
+    color: rgb(246, 246, 246);
+    padding-bottom:  20px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#footersito{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
